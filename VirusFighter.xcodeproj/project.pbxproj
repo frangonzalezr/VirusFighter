@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1063003248AF886003CA0A9 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1063000248AF25B003CA0A9 /* explosion.mp3 */; };
+		A1063004248AF886003CA0A9 /* mossbergShotgun.wav in Resources */ = {isa = PBXBuildFile; fileRef = A1063001248AF25B003CA0A9 /* mossbergShotgun.wav */; };
+		A1063005248AF886003CA0A9 /* expartigh.aiff in Resources */ = {isa = PBXBuildFile; fileRef = A1063002248AF25B003CA0A9 /* expartigh.aiff */; };
+		A1608AE2248D4A3E0032509E /* Simple_Toilet_Paper.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1608AE1248D4A3E0032509E /* Simple_Toilet_Paper.usdz */; };
+		A1608AE4248D4E4B0032509E /* ToiletPaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1608AE3248D4E4B0032509E /* ToiletPaper.swift */; };
+		A1608AE6248DA1960032509E /* Novel_Coronavirus__2019-nCoV.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1608AE5248DA1960032509E /* Novel_Coronavirus__2019-nCoV.usdz */; };
+		A1C9050924963E18000F1144 /* VirusFighterViperInteractorDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C904FA24963E18000F1144 /* VirusFighterViperInteractorDependencies.swift */; };
+		A1C9050A24963E18000F1144 /* VirusFighterViperAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C904FB24963E18000F1144 /* VirusFighterViperAction.swift */; };
+		A1C9050B24963E18000F1144 /* VirusFighterViperPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C904FC24963E18000F1144 /* VirusFighterViperPresenter.swift */; };
+		A1C9050C24963E18000F1144 /* VirusFighterViperRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C904FD24963E18000F1144 /* VirusFighterViperRouter.swift */; };
+		A1C9050D24963E18000F1144 /* VirusFighterViperRouterDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C904FE24963E18000F1144 /* VirusFighterViperRouterDependencies.swift */; };
+		A1C9050E24963E18000F1144 /* VirusFighterViperRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C904FF24963E18000F1144 /* VirusFighterViperRoute.swift */; };
+		A1C9050F24963E18000F1144 /* VirusFighterViperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050024963E18000F1144 /* VirusFighterViperViewController.swift */; };
+		A1C9051024963E18000F1144 /* VirusFighterViperWireframeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050124963E18000F1144 /* VirusFighterViperWireframeError.swift */; };
+		A1C9051124963E18000F1144 /* VirusFighterViperPresenterDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050224963E18000F1144 /* VirusFighterViperPresenterDependencies.swift */; };
+		A1C9051224963E18000F1144 /* VirusFighterViperInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050324963E18000F1144 /* VirusFighterViperInteractor.swift */; };
+		A1C9051324963E18000F1144 /* VirusFighterViperDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050424963E18000F1144 /* VirusFighterViperDelegateProtocol.swift */; };
+		A1C9051424963E18000F1144 /* VirusFighterViperEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050524963E18000F1144 /* VirusFighterViperEvent.swift */; };
+		A1C9051524963E18000F1144 /* VirusFighterViperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050624963E18000F1144 /* VirusFighterViperProtocol.swift */; };
+		A1C9051624963E18000F1144 /* VirusFighterViperWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050724963E18000F1144 /* VirusFighterViperWireframe.swift */; };
+		A1D849D3249565F500F4F9E9 /* VirusFighterViper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D849C3249565F500F4F9E9 /* VirusFighterViper.storyboard */; };
+		A1EC4F2E248B0CC100D1CD71 /* Coronavirus_SARS-CoV-2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1EC4F2D248B0CC100D1CD71 /* Coronavirus_SARS-CoV-2.usdz */; };
+		A1EC4F30248B144B00D1CD71 /* Syringe1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1EC4F2F248B144B00D1CD71 /* Syringe1.usdz */; };
+		A1EC4F32248B147E00D1CD71 /* Syringe2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1EC4F31248B147E00D1CD71 /* Syringe2.usdz */; };
+		D54D4E6921711CAF00567502 /* Collisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54D4E6821711CAF00567502 /* Collisions.swift */; };
+		D54D4E6E2171243300567502 /* Syringe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54D4E6D2171243300567502 /* Syringe.swift */; };
+		D54D4E74217143AB00567502 /* Virus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54D4E73217143AB00567502 /* Virus.swift */; };
+		D54D4E962171457000567502 /* ship.scn in Resources */ = {isa = PBXBuildFile; fileRef = D54D4E952171457000567502 /* ship.scn */; };
+		D54D4E982171457900567502 /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = D54D4E972171457900567502 /* texture.png */; };
+		D54D4EA8217159A800567502 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = D54D4EA6217159A800567502 /* spark.png */; };
+		D54D4EA9217159A800567502 /* Explossion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = D54D4EA7217159A800567502 /* Explossion.scnp */; };
+		D54D4EAB21715B7D00567502 /* Explossion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54D4EAA21715B7D00567502 /* Explossion.swift */; };
+		D54D4EAD2171603F00567502 /* Bullet.scn in Resources */ = {isa = PBXBuildFile; fileRef = D54D4EAC2171603F00567502 /* Bullet.scn */; };
+		D5CC2AC2216AB77B00F5A1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC2AC1216AB77B00F5A1DF /* AppDelegate.swift */; };
+		D5CC2AC9216AB77D00F5A1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CC2AC8216AB77D00F5A1DF /* Assets.xcassets */; };
+		D5CC2ACC216AB77D00F5A1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CC2ACA216AB77D00F5A1DF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1063000248AF25B003CA0A9 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		A1063001248AF25B003CA0A9 /* mossbergShotgun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mossbergShotgun.wav; sourceTree = "<group>"; };
+		A1063002248AF25B003CA0A9 /* expartigh.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = expartigh.aiff; sourceTree = "<group>"; };
+		A1608AE1248D4A3E0032509E /* Simple_Toilet_Paper.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Simple_Toilet_Paper.usdz; sourceTree = "<group>"; };
+		A1608AE3248D4E4B0032509E /* ToiletPaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToiletPaper.swift; sourceTree = "<group>"; };
+		A1608AE5248DA1960032509E /* Novel_Coronavirus__2019-nCoV.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Novel_Coronavirus__2019-nCoV.usdz"; sourceTree = "<group>"; };
+		A1C904FA24963E18000F1144 /* VirusFighterViperInteractorDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperInteractorDependencies.swift; sourceTree = "<group>"; };
+		A1C904FB24963E18000F1144 /* VirusFighterViperAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperAction.swift; sourceTree = "<group>"; };
+		A1C904FC24963E18000F1144 /* VirusFighterViperPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperPresenter.swift; sourceTree = "<group>"; };
+		A1C904FD24963E18000F1144 /* VirusFighterViperRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperRouter.swift; sourceTree = "<group>"; };
+		A1C904FE24963E18000F1144 /* VirusFighterViperRouterDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperRouterDependencies.swift; sourceTree = "<group>"; };
+		A1C904FF24963E18000F1144 /* VirusFighterViperRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperRoute.swift; sourceTree = "<group>"; };
+		A1C9050024963E18000F1144 /* VirusFighterViperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperViewController.swift; sourceTree = "<group>"; };
+		A1C9050124963E18000F1144 /* VirusFighterViperWireframeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperWireframeError.swift; sourceTree = "<group>"; };
+		A1C9050224963E18000F1144 /* VirusFighterViperPresenterDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperPresenterDependencies.swift; sourceTree = "<group>"; };
+		A1C9050324963E18000F1144 /* VirusFighterViperInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperInteractor.swift; sourceTree = "<group>"; };
+		A1C9050424963E18000F1144 /* VirusFighterViperDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperDelegateProtocol.swift; sourceTree = "<group>"; };
+		A1C9050524963E18000F1144 /* VirusFighterViperEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperEvent.swift; sourceTree = "<group>"; };
+		A1C9050624963E18000F1144 /* VirusFighterViperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperProtocol.swift; sourceTree = "<group>"; };
+		A1C9050724963E18000F1144 /* VirusFighterViperWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperWireframe.swift; sourceTree = "<group>"; };
+		A1D849C3249565F500F4F9E9 /* VirusFighterViper.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VirusFighterViper.storyboard; sourceTree = "<group>"; };
+		A1EC4F2D248B0CC100D1CD71 /* Coronavirus_SARS-CoV-2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Coronavirus_SARS-CoV-2.usdz"; sourceTree = "<group>"; };
+		A1EC4F2F248B144B00D1CD71 /* Syringe1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Syringe1.usdz; sourceTree = "<group>"; };
+		A1EC4F31248B147E00D1CD71 /* Syringe2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Syringe2.usdz; sourceTree = "<group>"; };
+		D54D4E6821711CAF00567502 /* Collisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collisions.swift; sourceTree = "<group>"; };
+		D54D4E6D2171243300567502 /* Syringe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Syringe.swift; sourceTree = "<group>"; };
+		D54D4E73217143AB00567502 /* Virus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Virus.swift; sourceTree = "<group>"; };
+		D54D4E952171457000567502 /* ship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ship.scn; sourceTree = "<group>"; };
+		D54D4E972171457900567502 /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		D54D4EA6217159A800567502 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		D54D4EA7217159A800567502 /* Explossion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explossion.scnp; sourceTree = "<group>"; };
+		D54D4EAA21715B7D00567502 /* Explossion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explossion.swift; sourceTree = "<group>"; };
+		D54D4EAC2171603F00567502 /* Bullet.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Bullet.scn; sourceTree = "<group>"; };
+		D5CC2ABE216AB77B00F5A1DF /* VirusFighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirusFighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CC2AC1216AB77B00F5A1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5CC2AC8216AB77D00F5A1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5CC2ACB216AB77D00F5A1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5CC2ACD216AB77D00F5A1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5CC2ABB216AB77B00F5A1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1062FFF248AF25B003CA0A9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A1063000248AF25B003CA0A9 /* explosion.mp3 */,
+				A1063001248AF25B003CA0A9 /* mossbergShotgun.wav */,
+				A1063002248AF25B003CA0A9 /* expartigh.aiff */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A1C9051724964068000F1144 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A1C904FD24963E18000F1144 /* VirusFighterViperRouter.swift */,
+				A1C904FE24963E18000F1144 /* VirusFighterViperRouterDependencies.swift */,
+				A1C904FF24963E18000F1144 /* VirusFighterViperRoute.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A1C9051824964087000F1144 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A1C904FC24963E18000F1144 /* VirusFighterViperPresenter.swift */,
+				A1C9050224963E18000F1144 /* VirusFighterViperPresenterDependencies.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A1C90519249640A2000F1144 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9050124963E18000F1144 /* VirusFighterViperWireframeError.swift */,
+				A1C9050724963E18000F1144 /* VirusFighterViperWireframe.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		A1C9051A249640BF000F1144 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9050424963E18000F1144 /* VirusFighterViperDelegateProtocol.swift */,
+				A1C9050624963E18000F1144 /* VirusFighterViperProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A1C9051B249640D4000F1144 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A1C904FA24963E18000F1144 /* VirusFighterViperInteractorDependencies.swift */,
+				A1C9050324963E18000F1144 /* VirusFighterViperInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A1C9051C2496446A000F1144 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A1D849C3249565F500F4F9E9 /* VirusFighterViper.storyboard */,
+				D5CC2ACA216AB77D00F5A1DF /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		A1C9051D2496450D000F1144 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9050024963E18000F1144 /* VirusFighterViperViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1C9051E2496458E000F1144 /* Events & Actions */ = {
+			isa = PBXGroup;
+			children = (
+				A1C904FB24963E18000F1144 /* VirusFighterViperAction.swift */,
+				A1C9050524963E18000F1144 /* VirusFighterViperEvent.swift */,
+			);
+			path = "Events & Actions";
+			sourceTree = "<group>";
+		};
+		A1C9051F249645B5000F1144 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC2AC1216AB77B00F5A1DF /* AppDelegate.swift */,
+				D5CC2ACD216AB77D00F5A1DF /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1EC4F2C248B0CB500D1CD71 /* COVID */ = {
+			isa = PBXGroup;
+			children = (
+				A1608AE1248D4A3E0032509E /* Simple_Toilet_Paper.usdz */,
+				A1EC4F2D248B0CC100D1CD71 /* Coronavirus_SARS-CoV-2.usdz */,
+				A1608AE5248DA1960032509E /* Novel_Coronavirus__2019-nCoV.usdz */,
+				A1EC4F2F248B144B00D1CD71 /* Syringe1.usdz */,
+				A1EC4F31248B147E00D1CD71 /* Syringe2.usdz */,
+				A1608AE3248D4E4B0032509E /* ToiletPaper.swift */,
+				D54D4E6D2171243300567502 /* Syringe.swift */,
+				D54D4E73217143AB00567502 /* Virus.swift */,
+			);
+			path = COVID;
+			sourceTree = "<group>";
+		};
+		D54D4E6721711C9E00567502 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC4F2C248B0CB500D1CD71 /* COVID */,
+				A1062FFF248AF25B003CA0A9 /* Sounds */,
+				D54D4E6821711CAF00567502 /* Collisions.swift */,
+				D5CC2AD4216AB78B00F5A1DF /* Plane */,
+				D54D4E6A2171239200567502 /* Bullet */,
+				D54D4E99217158AE00567502 /* Effects */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		D54D4E6A2171239200567502 /* Bullet */ = {
+			isa = PBXGroup;
+			children = (
+				D54D4EAC2171603F00567502 /* Bullet.scn */,
+			);
+			path = Bullet;
+			sourceTree = "<group>";
+		};
+		D54D4E99217158AE00567502 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				D54D4EA6217159A800567502 /* spark.png */,
+				D54D4EA7217159A800567502 /* Explossion.scnp */,
+				D54D4EAA21715B7D00567502 /* Explossion.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		D5CC2AB5216AB77B00F5A1DF = {
+			isa = PBXGroup;
+			children = (
+				D5CC2AC0216AB77B00F5A1DF /* VirusFighter */,
+				D5CC2ABF216AB77B00F5A1DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5CC2ABF216AB77B00F5A1DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC2ABE216AB77B00F5A1DF /* VirusFighter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5CC2AC0216AB77B00F5A1DF /* VirusFighter */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC2AD3216AB78200F5A1DF /* Resources */,
+				A1C9051B249640D4000F1144 /* Interactor */,
+				A1C9051E2496458E000F1144 /* Events & Actions */,
+				A1C9051824964087000F1144 /* Presenter */,
+				A1C9051724964068000F1144 /* Router */,
+				A1C9051D2496450D000F1144 /* Views */,
+				A1C90519249640A2000F1144 /* WireFrame */,
+				A1C9051A249640BF000F1144 /* Protocols */,
+				A1C9051F249645B5000F1144 /* App */,
+			);
+			path = VirusFighter;
+			sourceTree = "<group>";
+		};
+		D5CC2AD3216AB78200F5A1DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1C9051C2496446A000F1144 /* StoryBoards */,
+				D5CC2AC8216AB77D00F5A1DF /* Assets.xcassets */,
+				D54D4E6721711C9E00567502 /* Objects */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D5CC2AD4216AB78B00F5A1DF /* Plane */ = {
+			isa = PBXGroup;
+			children = (
+				D54D4E972171457900567502 /* texture.png */,
+				D54D4E952171457000567502 /* ship.scn */,
+			);
+			path = Plane;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5CC2ABD216AB77B00F5A1DF /* VirusFighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CC2AD0216AB77D00F5A1DF /* Build configuration list for PBXNativeTarget "VirusFighter" */;
+			buildPhases = (
+				D5CC2ABA216AB77B00F5A1DF /* Sources */,
+				D5CC2ABB216AB77B00F5A1DF /* Frameworks */,
+				D5CC2ABC216AB77B00F5A1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirusFighter;
+			productName = ARBillboad;
+			productReference = D5CC2ABE216AB77B00F5A1DF /* VirusFighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5CC2AB6216AB77B00F5A1DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Fran González Ramos";
+				TargetAttributes = {
+					D5CC2ABD216AB77B00F5A1DF = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = D5CC2AB9216AB77B00F5A1DF /* Build configuration list for PBXProject "VirusFighter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5CC2AB5216AB77B00F5A1DF;
+			productRefGroup = D5CC2ABF216AB77B00F5A1DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5CC2ABD216AB77B00F5A1DF /* VirusFighter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5CC2ABC216AB77B00F5A1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1063003248AF886003CA0A9 /* explosion.mp3 in Resources */,
+				A1063004248AF886003CA0A9 /* mossbergShotgun.wav in Resources */,
+				A1063005248AF886003CA0A9 /* expartigh.aiff in Resources */,
+				D5CC2ACC216AB77D00F5A1DF /* LaunchScreen.storyboard in Resources */,
+				A1EC4F30248B144B00D1CD71 /* Syringe1.usdz in Resources */,
+				D54D4EA9217159A800567502 /* Explossion.scnp in Resources */,
+				D54D4EA8217159A800567502 /* spark.png in Resources */,
+				A1608AE6248DA1960032509E /* Novel_Coronavirus__2019-nCoV.usdz in Resources */,
+				A1EC4F2E248B0CC100D1CD71 /* Coronavirus_SARS-CoV-2.usdz in Resources */,
+				A1D849D3249565F500F4F9E9 /* VirusFighterViper.storyboard in Resources */,
+				D54D4E982171457900567502 /* texture.png in Resources */,
+				D54D4EAD2171603F00567502 /* Bullet.scn in Resources */,
+				D5CC2AC9216AB77D00F5A1DF /* Assets.xcassets in Resources */,
+				D54D4E962171457000567502 /* ship.scn in Resources */,
+				A1608AE2248D4A3E0032509E /* Simple_Toilet_Paper.usdz in Resources */,
+				A1EC4F32248B147E00D1CD71 /* Syringe2.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5CC2ABA216AB77B00F5A1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54D4E6E2171243300567502 /* Syringe.swift in Sources */,
+				A1C9051624963E18000F1144 /* VirusFighterViperWireframe.swift in Sources */,
+				A1C9050F24963E18000F1144 /* VirusFighterViperViewController.swift in Sources */,
+				A1C9051224963E18000F1144 /* VirusFighterViperInteractor.swift in Sources */,
+				A1C9050E24963E18000F1144 /* VirusFighterViperRoute.swift in Sources */,
+				A1C9051424963E18000F1144 /* VirusFighterViperEvent.swift in Sources */,
+				A1C9050924963E18000F1144 /* VirusFighterViperInteractorDependencies.swift in Sources */,
+				A1C9051024963E18000F1144 /* VirusFighterViperWireframeError.swift in Sources */,
+				A1C9051524963E18000F1144 /* VirusFighterViperProtocol.swift in Sources */,
+				A1C9051324963E18000F1144 /* VirusFighterViperDelegateProtocol.swift in Sources */,
+				D54D4E74217143AB00567502 /* Virus.swift in Sources */,
+				A1C9050C24963E18000F1144 /* VirusFighterViperRouter.swift in Sources */,
+				D54D4EAB21715B7D00567502 /* Explossion.swift in Sources */,
+				D54D4E6921711CAF00567502 /* Collisions.swift in Sources */,
+				A1608AE4248D4E4B0032509E /* ToiletPaper.swift in Sources */,
+				A1C9050D24963E18000F1144 /* VirusFighterViperRouterDependencies.swift in Sources */,
+				D5CC2AC2216AB77B00F5A1DF /* AppDelegate.swift in Sources */,
+				A1C9050B24963E18000F1144 /* VirusFighterViperPresenter.swift in Sources */,
+				A1C9051124963E18000F1144 /* VirusFighterViperPresenterDependencies.swift in Sources */,
+				A1C9050A24963E18000F1144 /* VirusFighterViperAction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5CC2ACA216AB77D00F5A1DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CC2ACB216AB77D00F5A1DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5CC2ACE216AB77D00F5A1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5CC2ACF216AB77D00F5A1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5CC2AD1216AB77D00F5A1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SSTK67P94;
+				INFOPLIST_FILE = VirusFighter/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.familyoptica.VirusFighter;
+				PRODUCT_NAME = VirusFighter;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5CC2AD2216AB77D00F5A1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SSTK67P94;
+				INFOPLIST_FILE = VirusFighter/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.familyoptica.VirusFighter;
+				PRODUCT_NAME = VirusFighter;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5CC2AB9216AB77B00F5A1DF /* Build configuration list for PBXProject "VirusFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CC2ACE216AB77D00F5A1DF /* Debug */,
+				D5CC2ACF216AB77D00F5A1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CC2AD0216AB77D00F5A1DF /* Build configuration list for PBXNativeTarget "VirusFighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CC2AD1216AB77D00F5A1DF /* Debug */,
+				D5CC2AD2216AB77D00F5A1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5CC2AB6216AB77B00F5A1DF /* Project object */;
+}

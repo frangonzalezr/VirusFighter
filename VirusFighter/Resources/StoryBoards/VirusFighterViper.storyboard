@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iIG-Rk-DhD">
+    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Virus Fighter Viper View Controller-->
+        <scene sceneID="MV2-5f-f1s">
+            <objects>
+                <viewController id="iIG-Rk-DhD" customClass="VirusFighterViperViewController" customModule="VirusFighter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N7N-xn-Wp5" customClass="VirusFighterViperView" customModule="VirusFighter" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88V-h1-WRY">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="yWi-og-qdl" appends="YES" id="2Vt-6H-ynr"/>
+                                </connections>
+                            </arscnView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_mira" translatesAutoresizingMaskIntoConstraints="NO" id="QDw-Gw-q2Q">
+                                <rect key="frame" x="308.5" y="162.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="1gr-4P-5MA"/>
+                                    <constraint firstAttribute="height" constant="50" id="9NG-JF-TRT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="88V-h1-WRY" firstAttribute="top" secondItem="N7N-xn-Wp5" secondAttribute="top" id="Fqj-RN-Ivl"/>
+                            <constraint firstItem="88V-h1-WRY" firstAttribute="trailing" secondItem="N7N-xn-Wp5" secondAttribute="trailing" id="Ho4-T4-arp"/>
+                            <constraint firstItem="88V-h1-WRY" firstAttribute="bottom" secondItem="N7N-xn-Wp5" secondAttribute="bottom" id="JZA-FH-0Zc"/>
+                            <constraint firstItem="QDw-Gw-q2Q" firstAttribute="centerX" secondItem="N7N-xn-Wp5" secondAttribute="centerX" id="OcO-v5-aRF"/>
+                            <constraint firstItem="QDw-Gw-q2Q" firstAttribute="centerY" secondItem="N7N-xn-Wp5" secondAttribute="centerY" id="lap-UZ-qWn"/>
+                            <constraint firstItem="88V-h1-WRY" firstAttribute="leading" secondItem="N7N-xn-Wp5" secondAttribute="leading" id="rE1-Zi-9mf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ord-RF-Sy8"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="88V-h1-WRY" id="aHD-4i-2Gj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lUx-Sv-e1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="yWi-og-qdl">
+                    <connections>
+                        <action selector="tapScreen:" destination="iIG-Rk-DhD" id="d7O-1V-6qQ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-178" y="49"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_mira" width="50" height="50"/>
+    </resources>
+</document>
