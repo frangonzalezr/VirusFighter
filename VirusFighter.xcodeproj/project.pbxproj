@@ -28,6 +28,7 @@
 		A1C9051524963E18000F1144 /* VirusFighterViperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050624963E18000F1144 /* VirusFighterViperProtocol.swift */; };
 		A1C9051624963E18000F1144 /* VirusFighterViperWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C9050724963E18000F1144 /* VirusFighterViperWireframe.swift */; };
 		A1D849D3249565F500F4F9E9 /* VirusFighterViper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D849C3249565F500F4F9E9 /* VirusFighterViper.storyboard */; };
+		A1DF664E249671C500C9A7A6 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF664D249671C500C9A7A6 /* LandingViewController.swift */; };
 		A1EC4F2E248B0CC100D1CD71 /* Coronavirus_SARS-CoV-2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1EC4F2D248B0CC100D1CD71 /* Coronavirus_SARS-CoV-2.usdz */; };
 		A1EC4F30248B144B00D1CD71 /* Syringe1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1EC4F2F248B144B00D1CD71 /* Syringe1.usdz */; };
 		A1EC4F32248B147E00D1CD71 /* Syringe2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A1EC4F31248B147E00D1CD71 /* Syringe2.usdz */; };
@@ -67,6 +68,7 @@
 		A1C9050624963E18000F1144 /* VirusFighterViperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperProtocol.swift; sourceTree = "<group>"; };
 		A1C9050724963E18000F1144 /* VirusFighterViperWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirusFighterViperWireframe.swift; sourceTree = "<group>"; };
 		A1D849C3249565F500F4F9E9 /* VirusFighterViper.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VirusFighterViper.storyboard; sourceTree = "<group>"; };
+		A1DF664D249671C500C9A7A6 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		A1EC4F2D248B0CC100D1CD71 /* Coronavirus_SARS-CoV-2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Coronavirus_SARS-CoV-2.usdz"; sourceTree = "<group>"; };
 		A1EC4F2F248B144B00D1CD71 /* Syringe1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Syringe1.usdz; sourceTree = "<group>"; };
 		A1EC4F31248B147E00D1CD71 /* Syringe2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Syringe2.usdz; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				A1C9050024963E18000F1144 /* VirusFighterViperViewController.swift */,
+				A1DF664D249671C500C9A7A6 /* LandingViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54D4E6E2171243300567502 /* Syringe.swift in Sources */,
+				A1DF664E249671C500C9A7A6 /* LandingViewController.swift in Sources */,
 				A1C9051624963E18000F1144 /* VirusFighterViperWireframe.swift in Sources */,
 				A1C9050F24963E18000F1144 /* VirusFighterViperViewController.swift in Sources */,
 				A1C9051224963E18000F1144 /* VirusFighterViperInteractor.swift in Sources */,

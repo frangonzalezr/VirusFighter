@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iIG-Rk-DhD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jGf-Kz-F12">
     <device id="retina4_7" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -8,6 +8,48 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Landing View Controller-->
+        <scene sceneID="pU2-9I-T4b">
+            <objects>
+                <viewController id="jGf-Kz-F12" customClass="LandingViewController" customModule="VirusFighter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nj9-dl-AAu">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45m-sl-Sw0">
+                                <rect key="frame" x="341" y="261" width="222" height="39"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="21"/>
+                                <state key="normal" title="Begin disinfection">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iIG-Rk-DhD" kind="presentation" modalTransitionStyle="crossDissolve" id="32O-cu-efh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJm-kd-bRm">
+                                <rect key="frame" x="123" y="90" width="139.5" height="30.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="24"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LJm-kd-bRm" firstAttribute="leading" secondItem="43I-bt-F4m" secondAttribute="leading" constant="123" id="Ftj-w7-i8B"/>
+                            <constraint firstItem="LJm-kd-bRm" firstAttribute="top" secondItem="43I-bt-F4m" secondAttribute="top" constant="90" id="Uoj-F9-BCr"/>
+                            <constraint firstItem="43I-bt-F4m" firstAttribute="bottom" secondItem="45m-sl-Sw0" secondAttribute="bottom" constant="75" id="YgZ-UI-oAW"/>
+                            <constraint firstItem="43I-bt-F4m" firstAttribute="trailing" secondItem="45m-sl-Sw0" secondAttribute="trailing" constant="104" id="yzn-jK-vDr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="43I-bt-F4m"/>
+                    </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="LJm-kd-bRm" id="7Dg-2a-kel"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FgM-m2-YQP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-885" y="49"/>
+        </scene>
         <!--Virus Fighter Viper View Controller-->
         <scene sceneID="MV2-5f-f1s">
             <objects>
