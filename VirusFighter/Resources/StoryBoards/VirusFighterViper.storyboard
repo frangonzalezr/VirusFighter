@@ -33,7 +33,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="LJm-kd-bRm" firstAttribute="leading" secondItem="43I-bt-F4m" secondAttribute="leading" constant="123" id="Ftj-w7-i8B"/>
                             <constraint firstItem="LJm-kd-bRm" firstAttribute="top" secondItem="43I-bt-F4m" secondAttribute="top" constant="90" id="Uoj-F9-BCr"/>
